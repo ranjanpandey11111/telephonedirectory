@@ -9,7 +9,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - "DB=mongodb://db/mern-crud"
+      - "DB=mongodb://db/telephone-directory"
       - "CORS=1"
       - "DEBUG=express:*"
     volumes:
